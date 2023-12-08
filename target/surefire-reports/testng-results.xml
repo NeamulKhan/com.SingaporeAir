@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-08T13:49:36 EST" name="Surefire suite" finished-at="2023-12-08T13:49:48 EST" duration-ms="12050">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerSingaporeAir.TestRunnerSingaporeAir@31c88ec8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-12-08T13:49:36 EST" name="Surefire test" finished-at="2023-12-08T13:49:48 EST" duration-ms="12050">
+      <class name="testRunnerSingaporeAir.TestRunnerSingaporeAir">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testRunnerSingaporeAir.TestRunnerSingaporeAir@31c88ec8]" started-at="2023-12-08T13:49:36 EST" name="setup" finished-at="2023-12-08T13:49:39 EST" duration-ms="2911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunnerSingaporeAir.TestRunnerSingaporeAir@31c88ec8]" started-at="2023-12-08T13:49:39 EST" name="setUpClass" finished-at="2023-12-08T13:49:39 EST" duration-ms="216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2a869a16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerSingaporeAir.TestRunnerSingaporeAir@31c88ec8]" started-at="2023-12-08T13:49:39 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-08T13:49:43 EST" duration-ms="3442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify user can search the available flights in given dates"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This feature is for fluight booking functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunnerSingaporeAir.TestRunnerSingaporeAir@31c88ec8]" started-at="2023-12-08T13:49:43 EST" name="tearDownClass" finished-at="2023-12-08T13:49:43 EST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="closerURL()[pri:0, instance:testRunnerSingaporeAir.TestRunnerSingaporeAir@31c88ec8]" started-at="2023-12-08T13:49:43 EST" name="closerURL" finished-at="2023-12-08T13:49:48 EST" duration-ms="5010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closerURL -->
+      </class> <!-- testRunnerSingaporeAir.TestRunnerSingaporeAir -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
