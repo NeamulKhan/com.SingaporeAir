@@ -6,7 +6,7 @@
       <class name="testRunnerSingaporeAir.TestRunnerSingaporeAir">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario"/>
+          <include name="runScenario" invocation-numbers="0"/>
           <include name="tearDownClass"/>
           <include name="setup"/>
           <include name="closerURL"/>
