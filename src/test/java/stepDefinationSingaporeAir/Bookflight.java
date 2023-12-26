@@ -25,15 +25,16 @@ public void user_validate_homepage_and_scrolldown_and_verify_flight_booking_is_d
 }
 
 @When("user click book flights radio button, enter depart city name, click correct pop up airport")
-public void user_click_book_flights_radio_button_enter_depart_city_name_click_correct_pop_up_airport() {
+public void user_click_book_flights_radio_button_enter_depart_city_name_click_correct_pop_up_airport() throws Exception {
     
+	singaporeairHomepageAction.click_bookflights_radiobutton_enter_departcity_click_correct_popup_airport();
 	
 }
 
 @When("user enter arrival city name and click correct popup airport")
-public void user_enter_arrival_city_name_and_click_correct_popup_airport() {
+public void user_enter_arrival_city_name_and_click_correct_popup_airport() throws Exception {
     
-	
+	singaporeairHomepageAction.enter_arrivalcity_and_click_correct_popup_airport();
 }
 
 
